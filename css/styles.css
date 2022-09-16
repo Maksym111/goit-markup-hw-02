@@ -177,7 +177,7 @@ body {
 /* ------------КОМАНДА------------ */
 
 .team-list .title,
-.team-list p {
+.team-list .job {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -207,6 +207,11 @@ body {
   color: var(--primary-white-color);
 }
 
+.address-list .link:hover,
+.address-list .link:focus {
+  color: var(--accent-blue-color);
+}
+
 /* ------------***PORTFOLIO***------------ */
 
 .examples-list .title {
@@ -219,7 +224,6 @@ body {
 }
 
 .examples-list .type {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
